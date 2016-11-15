@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "push": "bash bin/bash/push.sh",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -12,6 +14,7 @@
     "ejs": "~2.5.2",
     "express": "~4.14.0",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "mysql": "latest"
   }
 }
