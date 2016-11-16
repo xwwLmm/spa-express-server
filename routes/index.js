@@ -6,6 +6,7 @@ var router = express.Router();
  * 渲染出一个首页
  */
 router.get('/', function(req, res, next) {
+  console.log('index');
   res.render('index', { title: 'Hello ,Express world!' });
 });
 

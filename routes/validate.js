@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var userDao = require('../dao/eqlDao');
 
 /* GET users listing. */
-router.get('/addUser', function(req, res, next) {
-  res.render('home');
+router.get('/', function(req, res, next) {
+    console.log('Hello validate!!!');
+    next();
 });
 module.exports = router;
