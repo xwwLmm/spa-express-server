@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node ./bin/www",
     "push": "bash bin/bash/push.sh",
-    "start": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
